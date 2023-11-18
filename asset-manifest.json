@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/SaoBraz/static/css/main.f0a7d684.css",
+    "main.js": "/SaoBraz/static/js/main.73cd1c63.js",
+    "static/media/Jomhuria-Regular.ttf": "/SaoBraz/static/media/Jomhuria-Regular.f9e0cbcb3612fb54fdae.ttf",
+    "index.html": "/SaoBraz/index.html",
+    "main.f0a7d684.css.map": "/SaoBraz/static/css/main.f0a7d684.css.map",
+    "main.73cd1c63.js.map": "/SaoBraz/static/js/main.73cd1c63.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f0a7d684.css",
+    "static/js/main.73cd1c63.js"
+  ]
+}
