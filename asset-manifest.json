@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/SaoBraz/static/css/main.f0a7d684.css",
-    "main.js": "/SaoBraz/static/js/main.4c7d6a87.js",
+    "main.css": "/SaoBraz/static/css/main.9b6687e5.css",
+    "main.js": "/SaoBraz/static/js/main.8c47ee62.js",
+    "static/media/BR2_7660.jpg": "/SaoBraz/static/media/BR2_7660.4ca46cbe73cdfd2297e5.jpg",
     "static/media/Jomhuria-Regular.ttf": "/SaoBraz/static/media/Jomhuria-Regular.f9e0cbcb3612fb54fdae.ttf",
     "index.html": "/SaoBraz/index.html",
-    "main.f0a7d684.css.map": "/SaoBraz/static/css/main.f0a7d684.css.map",
-    "main.4c7d6a87.js.map": "/SaoBraz/static/js/main.4c7d6a87.js.map"
+    "main.9b6687e5.css.map": "/SaoBraz/static/css/main.9b6687e5.css.map",
+    "main.8c47ee62.js.map": "/SaoBraz/static/js/main.8c47ee62.js.map"
   },
   "entrypoints": [
-    "static/css/main.f0a7d684.css",
-    "static/js/main.4c7d6a87.js"
+    "static/css/main.9b6687e5.css",
+    "static/js/main.8c47ee62.js"
   ]
 }
