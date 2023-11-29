@@ -11,28 +11,26 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <div>
-          <Switch>
-            <Route exact path="/">
-              <Homepage />
-            </Route>
-            <Route path="/historia">
-              <Historia />
-            </Route>
-            <Route path="/atividades">
-              <Atividades />
-            </Route>
-            <Route path="/mordomos">
-              <Mordomos />
-            </Route>
-            <Route path="/contactos">
-              <Contactos />
-            </Route>
-            <Route path="*">
-              <ErrorPage404 />
-            </Route>
-          </Switch>
-        </div>
+        <Switch>
+          <Route exact path="/">
+            <Homepage />
+          </Route>
+          <Route path="/historia">
+            <Historia />
+          </Route>
+          <Route path="/atividades">
+            <Atividades />
+          </Route>
+          <Route path="/mordomos">
+            <Mordomos />
+          </Route>
+          <Route path="/contactos">
+            <Contactos />
+          </Route>
+          <Route path="*">
+            <ErrorPage404 />
+          </Route>
+        </Switch>
       </div>
     </Router>
   );
