@@ -16,16 +16,16 @@ function App() {
             <Route exact path="/">
               <Homepage />
             </Route>
-            <Route exact path="/historia">
+            <Route path="/historia">
               <Historia />
             </Route>
-            <Route exact path="/atividades">
+            <Route path="/atividades">
               <Atividades />
             </Route>
-            <Route exact path="/mordomos">
+            <Route path="/mordomos">
               <Mordomos />
             </Route>
-            <Route exact path="/contactos">
+            <Route path="/contactos">
               <Contactos />
             </Route>
             <Route path="*">
