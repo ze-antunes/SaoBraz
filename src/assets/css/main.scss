@@ -1,11 +1,17 @@
 @import './config';
+@import './components/footer';
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body, html {
     font-family: 'Jomhuria';
     background-color: $white;
 }
 
+
 @import './components/header';
+@import './components/homepage';
