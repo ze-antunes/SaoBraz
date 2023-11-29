@@ -12,22 +12,22 @@ function App() {
     <Router>
       <div className="App">
         <Switch>
-          <Route exact path="/">
+          <Route exact path="/SaoBraz/">
             <Homepage />
           </Route>
-          <Route path="/historia">
+          <Route exact path="/SaoBraz/historia">
             <Historia />
           </Route>
-          <Route path="/atividades">
+          <Route exact path="/SaoBraz/atividades">
             <Atividades />
           </Route>
-          <Route path="/mordomos">
+          <Route exact path="/SaoBraz/mordomos">
             <Mordomos />
           </Route>
-          <Route path="/contactos">
+          <Route exact path="/SaoBraz/contactos">
             <Contactos />
           </Route>
-          <Route path="*">
+          <Route path="/SaoBraz/*">
             <ErrorPage404 />
           </Route>
         </Switch>
