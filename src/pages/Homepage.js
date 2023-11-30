@@ -1,28 +1,37 @@
-/* eslint-disable react/jsx-no-target-blank */
-/* eslint-disable jsx-a11y/anchor-is-valid */
-
 import { Header } from "../components/Header";
+import Footer from "../components/Footer";
 import firstImage from '../assets/imgs/pictures/BR2_7660.jpg';
+import MansoryGrid from "../components/MansoryGrid";
+import SponsorsCarousel from "../components/SponsorsCarousel";
+import { useState } from "react";
+
+import logoImage1 from '../assets/imgs/logos/received_325445112274068.png';
+import logoImage2 from '../assets/imgs/São Braz.png';
 
 
 const Homepage = () => {
+    const [logos, setLogos] = useState([
+        logoImage1,
+        logoImage2,
+        logoImage1,
+        logoImage2,
+        logoImage1,
+        logoImage2,
+        logoImage1,
+        logoImage2,
+    ]);
+
     return (
         <div>
             <Header />
             <div className="carousel">
                 <img src={firstImage} alt="firstImage" />
             </div>
-
-            <main className="homepage">
-
-            </main>
-            <footer>
-                <div className="rounded-social-buttons">
-                    <a className="social-button facebook" href="https://www.facebook.com/saobraz2020?locale=pt_PT" target="_blank"><i className="fab fa-facebook-f"></i></a>
-                    <a className="social-button youtube" href="https://www.youtube.com/" target="_blank"><i className="fab fa-youtube"></i></a>
-                    <a className="social-button instagram" href="https://www.instagram.com/festasaobraz/" target="_blank"><i className="fab fa-instagram"></i></a>
-                </div>
-            </footer>
+            <MansoryGrid />
+            <SponsorsCarousel sponsors={logos} sponsorType={"gold"} />
+            <SponsorsCarousel sponsors={logos} sponsorType={"silver"} />
+            <SponsorsCarousel sponsors={logos} sponsorType={"bronze"} />
+            <Footer />
         </div>
     );
 }

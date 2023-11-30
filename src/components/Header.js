@@ -18,10 +18,10 @@ export const Header = () => {
             </label>
             <div className='menu'>
                 <ul className='menu-list'>
-                    <li><a className='menulink' href="/SaoBraz/contactos">Contactos</a></li>
-                    <li><a className='menulink' href="/SaoBraz/mordomos">Mordomos</a></li>
-                    <li><a className='menulink' href="/SaoBraz/atividades">Atividades</a></li>
-                    <li><a className='menulink' href="/SaoBraz/historia">História</a></li>
+                    <li><Link className='menulink' to={'/SaoBraz/contactos'}>Contactos</Link></li>
+                    <li><Link className='menulink' to={'/SaoBraz/mordomos'}>Mordomos</Link></li>
+                    <li><Link className='menulink' to={'/SaoBraz/atividades'}>Atividades</Link></li>
+                    <li><Link className='menulink' to={'/SaoBraz/historia'}>História</Link></li>
                 </ul>
             </div>
         </div>

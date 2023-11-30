@@ -11,6 +11,7 @@ function App() {
   return (
     <Router>
       <div className="App">
+        <div className="bg"></div>
         <Switch>
           <Route exact path="/SaoBraz/">
             <Homepage />

@@ -1,9 +1,32 @@
+.footer {
+    padding: 20px 50px;
+    background-color: $green;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: $white;
+    height: fit-content;
+}
+
+@media screen and (max-width: 600px) {
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+}
+
 .svg-inline--fa {
-    vertical-align: -0.4em;
+    vertical-align: -0.3em;
 }
 
 .rounded-social-buttons {
     text-align: center;
+    display: flex;
+    gap: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .rounded-social-buttons .social-button {
@@ -27,12 +50,12 @@
     background-color: transparent;
 }
 
-.rounded-social-buttons .social-button:hover,
-.rounded-social-buttons .social-button:focus {
-    -webkit-transform: rotate(360deg);
-    -ms-transform: rotate(360deg);
-    transform: rotate(360deg);
-}
+// .rounded-social-buttons .social-button:hover,
+// .rounded-social-buttons .social-button:focus {
+//     -webkit-transform: rotate(360deg);
+//     -ms-transform: rotate(360deg);
+//     transform: rotate(360deg);
+// }
 
 .rounded-social-buttons .fa-twitter,
 .fa-facebook-f,
@@ -43,7 +66,7 @@
 }
 
 .rounded-social-buttons .social-button.facebook {
-    background: #3b5998;
+    background: $black;
 }
 
 .rounded-social-buttons .social-button.facebook:hover,
@@ -53,30 +76,8 @@
     border-color: #3b5998;
 }
 
-.rounded-social-buttons .social-button.twitter {
-    background: #55acee;
-}
-
-.rounded-social-buttons .social-button.twitter:hover,
-.rounded-social-buttons .social-button.twitter:focus {
-    color: #55acee;
-    background: #fefefe;
-    border-color: #55acee;
-}
-
-.rounded-social-buttons .social-button.linkedin {
-    background: #007bb5;
-}
-
-.rounded-social-buttons .social-button.linkedin:hover,
-.rounded-social-buttons .social-button.linkedin:focus {
-    color: #007bb5;
-    background: #fefefe;
-    border-color: #007bb5;
-}
-
 .rounded-social-buttons .social-button.youtube {
-    background: #bb0000;
+    background: $black;
 }
 
 .rounded-social-buttons .social-button.youtube:hover,
@@ -87,7 +88,7 @@
 }
 
 .rounded-social-buttons .social-button.instagram {
-    background: #125688;
+    background: $black;
 }
 
 .rounded-social-buttons .social-button.instagram:hover,
