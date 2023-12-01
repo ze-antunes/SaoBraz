@@ -522,4 +522,12 @@ html {
 .swiper-button-prev::after, .swiper-button-next::after {
   color: #f6f6f4;
   font-weight: bold;
+}
+
+.swiper-pagination-bullet {
+  background: #f6f6f4 !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: #892D4B !important;
 }/*# sourceMappingURL=main.css.map */

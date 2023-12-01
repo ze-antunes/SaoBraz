@@ -25,3 +25,11 @@
     color: $white;
     font-weight: bold;
 }
+
+.swiper-pagination-bullet {
+    background: $white !important;
+}
+
+.swiper-pagination-bullet-active {
+    background: $red !important;
+}
