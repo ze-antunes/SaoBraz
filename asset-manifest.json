@@ -1,9 +1,11 @@
 {
   "files": {
-    "main.css": "/SaoBraz/static/css/main.a31b5c6b.css",
-    "main.js": "/SaoBraz/static/js/main.ded2f422.js",
+    "main.css": "/SaoBraz/static/css/main.73fbcc96.css",
+    "main.js": "/SaoBraz/static/js/main.b69bd106.js",
     "static/media/BR2_7660.jpg": "/SaoBraz/static/media/BR2_7660.4ca46cbe73cdfd2297e5.jpg",
+    "static/media/1.jpg": "/SaoBraz/static/media/1.e5c20a161c96e3933a99.jpg",
     "static/media/6.jpg": "/SaoBraz/static/media/6.8b0a4aadc2e7d5d709ae.jpg",
+    "static/media/34.jpg": "/SaoBraz/static/media/34.779992491e255d21d410.jpg",
     "static/media/12.jpg": "/SaoBraz/static/media/12.f63945591bc516843656.jpg",
     "static/media/19.jpg": "/SaoBraz/static/media/19.97973f16ea2b5d0565bd.jpg",
     "static/media/18.jpg": "/SaoBraz/static/media/18.5863cb0c81d499471cd0.jpg",
@@ -12,11 +14,11 @@
     "static/media/received_325445112274068.png": "/SaoBraz/static/media/received_325445112274068.bda7d476664fc45ec221.png",
     "static/media/icon_rebucado.png": "/SaoBraz/static/media/icon_rebucado.2c0980600183cb638e1f.png",
     "index.html": "/SaoBraz/index.html",
-    "main.a31b5c6b.css.map": "/SaoBraz/static/css/main.a31b5c6b.css.map",
-    "main.ded2f422.js.map": "/SaoBraz/static/js/main.ded2f422.js.map"
+    "main.73fbcc96.css.map": "/SaoBraz/static/css/main.73fbcc96.css.map",
+    "main.b69bd106.js.map": "/SaoBraz/static/js/main.b69bd106.js.map"
   },
   "entrypoints": [
-    "static/css/main.a31b5c6b.css",
-    "static/js/main.ded2f422.js"
+    "static/css/main.73fbcc96.css",
+    "static/js/main.b69bd106.js"
   ]
 }
