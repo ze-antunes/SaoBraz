@@ -1,19 +1,21 @@
 {
   "files": {
-    "main.css": "/SaoBraz/static/css/main.e1b2aa9c.css",
-    "main.js": "/SaoBraz/static/js/main.7ab9b864.js",
+    "main.css": "/SaoBraz/static/css/main.f88095e6.css",
+    "main.js": "/SaoBraz/static/js/main.f838aa5d.js",
     "static/media/BR2_7660.jpg": "/SaoBraz/static/media/BR2_7660.4ca46cbe73cdfd2297e5.jpg",
     "static/media/6.jpg": "/SaoBraz/static/media/6.8b0a4aadc2e7d5d709ae.jpg",
     "static/media/12.jpg": "/SaoBraz/static/media/12.f63945591bc516843656.jpg",
     "static/media/19.jpg": "/SaoBraz/static/media/19.97973f16ea2b5d0565bd.jpg",
     "static/media/18.jpg": "/SaoBraz/static/media/18.5863cb0c81d499471cd0.jpg",
     "static/media/Jomhuria-Regular.ttf": "/SaoBraz/static/media/Jomhuria-Regular.f9e0cbcb3612fb54fdae.ttf",
+    "static/media/received_325445112274068.png": "/SaoBraz/static/media/received_325445112274068.bda7d476664fc45ec221.png",
+    "static/media/icon_rebucado.png": "/SaoBraz/static/media/icon_rebucado.2c0980600183cb638e1f.png",
     "index.html": "/SaoBraz/index.html",
-    "main.e1b2aa9c.css.map": "/SaoBraz/static/css/main.e1b2aa9c.css.map",
-    "main.7ab9b864.js.map": "/SaoBraz/static/js/main.7ab9b864.js.map"
+    "main.f88095e6.css.map": "/SaoBraz/static/css/main.f88095e6.css.map",
+    "main.f838aa5d.js.map": "/SaoBraz/static/js/main.f838aa5d.js.map"
   },
   "entrypoints": [
-    "static/css/main.e1b2aa9c.css",
-    "static/js/main.7ab9b864.js"
+    "static/css/main.f88095e6.css",
+    "static/js/main.f838aa5d.js"
   ]
 }
