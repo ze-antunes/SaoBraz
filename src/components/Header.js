@@ -5,15 +5,15 @@ export const Header = () => {
     return (
         <div className='header'>
             <Link className='header__link' to={'/SaoBraz/'}>
-                <img src={require('../assets/imgs/São Braz.png')}  alt="sao_braz" />
+                <img src={require('../assets/imgs/São Braz.png')} alt="sao_braz" />
             </Link>
             <input type="checkbox" id="menutoggle" />
             <label htmlFor="menutoggle" className='hamburger'>
                 <span className='bum bum-top'>
-                    <span className='bum-crust bum-crust-top'></span>
+                    <span className='bum-crust bum-crust-top'><img src={require('../assets/imgs/icons/icon_rebucado.png')} alt="icon_rebucado" /></span>
                 </span>
                 <span className='bum bum-bottom'>
-                    <span className='bum-crust bum-crust-bottom'></span>
+                    <span className='bum-crust bum-crust-bottom'><img src={require('../assets/imgs/icons/icon_rebucado.png')} alt="icon_rebucado" /></span>
                 </span>
             </label>
             <div className='menu'>

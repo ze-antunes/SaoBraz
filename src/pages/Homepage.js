@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { Header } from "../components/Header";
 import Footer from "../components/Footer";
 import firstImage from '../assets/imgs/pictures/BR2_7660.jpg';
@@ -28,9 +29,9 @@ const Homepage = () => {
                 <img src={firstImage} alt="firstImage" />
             </div>
             <MansoryGrid />
-            <SponsorsCarousel sponsors={logos} sponsorType={"gold"} />
-            <SponsorsCarousel sponsors={logos} sponsorType={"silver"} />
-            <SponsorsCarousel sponsors={logos} sponsorType={"bronze"} />
+            <SponsorsCarousel sponsors={logos} animationTime={"slow"} sponsorType={"gold"} />
+            <SponsorsCarousel sponsors={logos} animationTime={"medium"} sponsorType={"silver"} />
+            <SponsorsCarousel sponsors={logos} animationTime={"fast"} sponsorType={"bronze"} />
             <Footer />
         </div>
     );

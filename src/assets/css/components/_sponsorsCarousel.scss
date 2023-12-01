@@ -40,9 +40,19 @@
     animation-play-state: paused;
 }
 
-.logos-slide {
+.slow {
     display: inline-block;
-    animation: 35s slide infinite linear;
+    animation: 45s slide infinite linear;
+}
+
+.medium {
+    display: inline-block;
+    animation: 25s slide infinite linear;
+}
+
+.fast {
+    display: inline-block;
+    animation: 10s slide infinite linear;
 }
 
 .logos-slide .gold {
