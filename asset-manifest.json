@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/SaoBraz/static/css/main.64cae74a.css",
-    "main.js": "/SaoBraz/static/js/main.bd063559.js",
+    "main.css": "/SaoBraz/static/css/main.a766edd1.css",
+    "main.js": "/SaoBraz/static/js/main.898256e7.js",
     "static/media/video_contac_page.mp4": "/SaoBraz/static/media/video_contac_page.e938a1205ee4fd0c6a5b.mp4",
     "static/media/BR2_7660.jpg": "/SaoBraz/static/media/BR2_7660.4ca46cbe73cdfd2297e5.jpg",
     "static/media/1.jpg": "/SaoBraz/static/media/1.e5c20a161c96e3933a99.jpg",
@@ -11,15 +11,16 @@
     "static/media/19.jpg": "/SaoBraz/static/media/19.97973f16ea2b5d0565bd.jpg",
     "static/media/18.jpg": "/SaoBraz/static/media/18.5863cb0c81d499471cd0.jpg",
     "static/media/8.jpg": "/SaoBraz/static/media/8.fe4e4f9a287a20abd6e5.jpg",
+    "static/media/candies-transformed.glb": "/SaoBraz/static/media/candies-transformed.15afdef99056001044c1.glb",
     "static/media/Jomhuria-Regular.ttf": "/SaoBraz/static/media/Jomhuria-Regular.f9e0cbcb3612fb54fdae.ttf",
     "static/media/received_325445112274068.png": "/SaoBraz/static/media/received_325445112274068.bda7d476664fc45ec221.png",
     "static/media/icon_rebucado.png": "/SaoBraz/static/media/icon_rebucado.2c0980600183cb638e1f.png",
     "index.html": "/SaoBraz/index.html",
-    "main.64cae74a.css.map": "/SaoBraz/static/css/main.64cae74a.css.map",
-    "main.bd063559.js.map": "/SaoBraz/static/js/main.bd063559.js.map"
+    "main.a766edd1.css.map": "/SaoBraz/static/css/main.a766edd1.css.map",
+    "main.898256e7.js.map": "/SaoBraz/static/js/main.898256e7.js.map"
   },
   "entrypoints": [
-    "static/css/main.64cae74a.css",
-    "static/js/main.bd063559.js"
+    "static/css/main.a766edd1.css",
+    "static/js/main.898256e7.js"
   ]
 }
