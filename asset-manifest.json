@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/SaoBraz/static/css/main.a766edd1.css",
-    "main.js": "/SaoBraz/static/js/main.898256e7.js",
+    "main.js": "/SaoBraz/static/js/main.c98934e8.js",
     "static/media/video_contac_page.mp4": "/SaoBraz/static/media/video_contac_page.e938a1205ee4fd0c6a5b.mp4",
     "static/media/BR2_7660.jpg": "/SaoBraz/static/media/BR2_7660.4ca46cbe73cdfd2297e5.jpg",
     "static/media/1.jpg": "/SaoBraz/static/media/1.e5c20a161c96e3933a99.jpg",
@@ -17,10 +17,10 @@
     "static/media/icon_rebucado.png": "/SaoBraz/static/media/icon_rebucado.2c0980600183cb638e1f.png",
     "index.html": "/SaoBraz/index.html",
     "main.a766edd1.css.map": "/SaoBraz/static/css/main.a766edd1.css.map",
-    "main.898256e7.js.map": "/SaoBraz/static/js/main.898256e7.js.map"
+    "main.c98934e8.js.map": "/SaoBraz/static/js/main.c98934e8.js.map"
   },
   "entrypoints": [
     "static/css/main.a766edd1.css",
-    "static/js/main.898256e7.js"
+    "static/js/main.c98934e8.js"
   ]
 }
