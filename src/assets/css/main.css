@@ -33,6 +33,7 @@ body {
           animation: bg-animation 0.2s infinite;
   opacity: 0.9;
   visibility: visible;
+  z-index: 1;
 }
 
 @-webkit-keyframes bg-animation {
@@ -136,11 +137,12 @@ body {
   padding: 40px 100px;
 }
 .contactpage__box .contact {
+  background-color: #363A2D;
   padding: 30px;
+  border-radius: 10px;
 }
 .contactpage__box .form {
   grid-area: form;
-  background-color: #363A2D;
 }
 .contactpage__box .form__box {
   width: 100%;
@@ -199,6 +201,8 @@ body {
   width: 40%;
   padding: 10px;
   align-self: center;
+  transition: all 0.5s ease;
+  cursor: pointer;
 }
 .contactpage__box .form__inputBox input[type=submit]:hover {
   background: #892D4B !important;
@@ -220,14 +224,13 @@ body {
 }
 .contactpage__box .info {
   grid-area: info;
-  background-color: #363A2D;
 }
 .contactpage__box .map {
   grid-area: map;
-  background-color: #363A2D;
   padding: 0;
 }
 .contactpage__box .map iframe {
+  border-radius: 10px;
   width: 100%;
   height: 100%;
 }
@@ -278,6 +281,16 @@ body {
     height: 100%;
   }
 }
+.historypage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1;
+}
+
 .header {
   display: flex;
   flex-wrap: wrap;
@@ -541,6 +554,7 @@ body {
   align-items: center;
   justify-content: center;
   gap: 1rem;
+  transition: all 0.5s ease;
 }
 .mansory_piece a:hover {
   background-color: #892D4B;

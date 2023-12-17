@@ -6,6 +6,7 @@
     box-sizing: border-box;
 }
 
+
 body {
     font-family: 'Jomhuria';
     background-color: $white;
@@ -26,6 +27,7 @@ body {
     animation: bg-animation .2s infinite;
     opacity: .9;
     visibility: visible;
+    z-index: 1;
 }
 
 @keyframes bg-animation {
@@ -77,6 +79,7 @@ body {
 
 @import './components/homepage';
 @import './components/contactpage';
+@import './components/historypage';
 @import './components/header';
 @import './components/footer';
 @import './components/mansory';
