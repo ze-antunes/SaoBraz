@@ -12,7 +12,7 @@ const Historia = () => {
             <div className='historypage'>
 
                 <Canvas shadows>
-                    <color attach="background" args={['#fff']} />
+                    <color attach="background" args={['#f6f6f4']} />
                     <ambientLight intensity={0.5} />
                     <pointLight intensity={10} position={[5, 5, 5]} angle={1.3} penumbra={1} castShadow shadow-bias={-0.0001} />
 
@@ -20,9 +20,9 @@ const Historia = () => {
                         preset='warehouse'
                     />
 
-                    <Candies />
 
-                    {/* <ScrollControls pages={6} damping={0.1}>
+                    <ScrollControls pages={6} damping={0.1}>
+                        <Candies scale={30} position={[0, -.5, 0]} />
                         <Scroll>
                         </Scroll>
 
@@ -49,7 +49,7 @@ const Historia = () => {
 
                             <button style={{ position: 'absolute', top: `590vh`, left: '50%', transform: `translate(-50%,-50%)` }}>Buy now</button>
                         </Scroll>
-                    </ScrollControls> */}
+                    </ScrollControls>
                 </Canvas>
             </div>
         </div>
