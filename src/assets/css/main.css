@@ -9,8 +9,7 @@
   box-sizing: border-box;
 }
 
-body,
-html {
+body {
   font-family: "Jomhuria";
   background-color: #f6f6f4;
 }
@@ -105,6 +104,178 @@ html {
   }
   100% {
     transform: translate(5%, 0);
+  }
+}
+.carousel {
+  width: 100%;
+  height: 80vh;
+}
+.carousel img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media screen and (max-width: 600px) {
+  .carousel {
+    height: 45vh;
+  }
+}
+.contactpage {
+  position: relative;
+  width: 100%;
+}
+.contactpage__box {
+  position: relative;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 5fr 4fr;
+  grid-template-areas: "form info" "form map";
+  grid-gap: 20px;
+  padding: 40px 100px;
+}
+.contactpage__box .contact {
+  padding: 30px;
+}
+.contactpage__box .form {
+  grid-area: form;
+  background-color: #363A2D;
+}
+.contactpage__box .form__box {
+  width: 100%;
+}
+.contactpage__box .form__row50 {
+  display: flex;
+  gap: 20px;
+}
+.contactpage__box .form__inputBox {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  width: 50%;
+}
+.contactpage__box .form__inputBox span {
+  color: #f6f6f4;
+  margin-bottom: 5px;
+  font-size: 2em;
+}
+.contactpage__box .form__inputBox input {
+  padding: 10px 5px;
+  font-size: 0.8em;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #f6f6f4;
+  background: none !important;
+  color: #f6f6f4;
+}
+.contactpage__box .form__inputBox input[type=email] {
+  padding: 10px 5px;
+  font-size: 0.8em;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #f6f6f4;
+  background: none !important;
+  color: #f6f6f4;
+}
+.contactpage__box .form__inputBox ::-webkit-input-placeholder {
+  color: #f6f6f4;
+}
+.contactpage__box .form__inputBox ::-moz-placeholder {
+  color: #f6f6f4;
+}
+.contactpage__box .form__inputBox :-ms-input-placeholder {
+  color: #f6f6f4;
+}
+.contactpage__box .form__inputBox :-moz-placeholder {
+  color: #f6f6f4;
+}
+.contactpage__box .form__inputBox input[type=submit] {
+  background: #000000 !important;
+  border: none;
+  border-bottom: none;
+  border-radius: 10px;
+  color: #f6f6f4;
+  width: 40%;
+  padding: 10px;
+  align-self: center;
+}
+.contactpage__box .form__inputBox input[type=submit]:hover {
+  background: #892D4B !important;
+}
+.contactpage__box .form__inputBox textarea {
+  padding: 10px 5px;
+  font-size: 1em;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #f6f6f4;
+  background: none !important;
+  resize: none;
+  min-height: 100px;
+  margin-bottom: 20px;
+  color: #f6f6f4;
+}
+.contactpage__box .form__row100 .form__inputBox {
+  width: 100%;
+}
+.contactpage__box .info {
+  grid-area: info;
+  background-color: #363A2D;
+}
+.contactpage__box .map {
+  grid-area: map;
+  background-color: #363A2D;
+  padding: 0;
+}
+.contactpage__box .map iframe {
+  width: 100%;
+  height: 100%;
+}
+
+#videoSaoBraz {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 100%;
+  z-index: -1;
+  overflow-y: hidden;
+}
+
+@media screen and (max-width: 1000px) {
+  #videoSaoBraz {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: auto;
+    height: 100%;
+    z-index: -1;
+  }
+}
+@media screen and (max-width: 990px) {
+  .contactpage__box {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+  }
+  .contactpage__box .form {
+    width: calc(100vw - 50px);
+  }
+  .contactpage__box .info {
+    width: calc(100vw - 50px);
+  }
+  .contactpage__box .map {
+    width: calc(100vw - 50px);
+    grid-area: map;
+    background-color: #363A2D;
+    height: 400px;
+    padding: 0;
+  }
+  .contactpage__box .map iframe {
+    width: 100%;
+    height: 100%;
   }
 }
 .header {
@@ -331,22 +502,6 @@ html {
   border-color: #125688;
 }
 
-.carousel {
-  width: 100%;
-  height: 80vh;
-}
-.carousel img {
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
-@media screen and (max-width: 600px) {
-  .carousel {
-    height: 45vh;
-  }
-}
 .mansory {
   padding: 50px;
   -moz-column-count: 2;

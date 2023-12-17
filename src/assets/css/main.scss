@@ -6,8 +6,7 @@
     box-sizing: border-box;
 }
 
-body,
-html {
+body {
     font-family: 'Jomhuria';
     background-color: $white;
 }
@@ -76,9 +75,10 @@ html {
 }
 
 
+@import './components/homepage';
+@import './components/contactpage';
 @import './components/header';
 @import './components/footer';
-@import './components/homepage';
 @import './components/mansory';
 @import './components/sponsorsCarousel';
 @import './components/swiper';

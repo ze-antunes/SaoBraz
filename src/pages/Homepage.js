@@ -27,7 +27,6 @@ const Homepage = () => {
         <div>
             <Header />
             <div className="carousel">
-                {/* <img src={firstImage} alt="firstImage" /> */}
                 <SwiperCarousel />
             </div>
             <MansoryGrid />

@@ -28,7 +28,7 @@ function App() {
           <Route exact path="/SaoBraz/contactos">
             <Contactos />
           </Route>
-          <Route path="/SaoBraz/*">
+          <Route path="*">
             <ErrorPage404 />
           </Route>
         </Switch>
